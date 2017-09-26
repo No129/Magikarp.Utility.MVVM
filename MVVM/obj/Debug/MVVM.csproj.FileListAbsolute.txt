@@ -1,0 +1,4 @@
+C:\_TOHU\Workspace\Magikarp\_Shared\Magikarp\Magikarp.Utility.MVVM.dll
+C:\_TOHU\Workspace\Magikarp\_Shared\Magikarp\Magikarp.Utility.MVVM.pdb
+C:\_TOHU\Workspace\Magikarp\Magikarp.Utility.MVVM\MVVM\obj\Debug\Magikarp.Utility.MVVM.dll
+C:\_TOHU\Workspace\Magikarp\Magikarp.Utility.MVVM\MVVM\obj\Debug\Magikarp.Utility.MVVM.pdb

@@ -1,0 +1,29 @@
+﻿<Window x:Class="Sample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <local:MainWindowViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="0" Content="{Binding HiButtonContent}" 
+                Command="{Binding HiButtonCommand}" 
+                CommandParameter="Hai"
+                Width="100"
+                Height="100"  />
+
+        <Button Grid.Row="1" Content="Toggle Can Click" 
+                Command="{Binding ToggleExecuteCommand}"  
+                Width="100" 
+                Height="100"/>
+    </Grid>
+</Window>
